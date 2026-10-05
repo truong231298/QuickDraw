@@ -1,0 +1,17 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.env
+data/*.npz
+models/*
+!models/.gitkeep
+reports/
+quickdraw-colab-source.zip
+demo/*.gif
+demo/*.png
+!demo/training_curves.png
+*.onnx
+*.pt
+*.pth
+*.egg-info/
